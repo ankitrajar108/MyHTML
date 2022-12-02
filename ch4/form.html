@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+</head>
+
+<body>
+    <div>
+        <h1>Travel Form for a trip</h1>
+        <form action="form.php">
+            <input type="text" placeholder="Enter Your Name" /><br>
+            <label for="sectionida">
+                <input type="radio" value="section a" name="section" id="sectionida" />KOC26
+            </label>
+            <label for="sectionidb">
+                <input type="radio" value="section b" name="section" id="sectionidb">KOC28
+            </label>
+            <label for="sectionidc">
+                <input type="radio" value="section c" name="section" id="sectionidc">KOC30
+            </label><br>
+            <input type="checkbox" name="Want Gym Membership" id="Gym" class="red">
+            <label for="Gym">Gym Membership</label><br>
+            <textarea name="explain" id="explain" cols="30" rows="10" placeholder="Why You Want To Join"></textarea>
+            <select name="workout" id="workout">
+                <option value="no workout">workout routine</option>
+                <option value="Single Body">Single Body</option>
+                <option value="Push Pull Leg">Push Pull Leg</option>
+                <option value="Bro Split">Bro Split</option>
+            </select>
+        </form>
+    </div>
+</body>
+
+</html>
